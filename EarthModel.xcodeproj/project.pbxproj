@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47138A5B2A0F84B300CD6949 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47138A5A2A0F84B300CD6949 /* AppDelegate.swift */; };
+		47138A5D2A0F84B300CD6949 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47138A5C2A0F84B300CD6949 /* SceneDelegate.swift */; };
+		47138A5F2A0F84B300CD6949 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47138A5E2A0F84B300CD6949 /* ViewController.swift */; };
+		47138A622A0F84B300CD6949 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47138A602A0F84B300CD6949 /* Main.storyboard */; };
+		47138A642A0F84B700CD6949 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47138A632A0F84B700CD6949 /* Assets.xcassets */; };
+		47138A672A0F84B700CD6949 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47138A652A0F84B700CD6949 /* LaunchScreen.storyboard */; };
+		47138A722A0F84B700CD6949 /* EarthModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47138A712A0F84B700CD6949 /* EarthModelTests.swift */; };
+		47138A7C2A0F84B700CD6949 /* EarthModelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47138A7B2A0F84B700CD6949 /* EarthModelUITests.swift */; };
+		47138A7E2A0F84B700CD6949 /* EarthModelUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47138A7D2A0F84B700CD6949 /* EarthModelUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47138A6E2A0F84B700CD6949 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47138A4F2A0F84B300CD6949 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47138A562A0F84B300CD6949;
+			remoteInfo = EarthModel;
+		};
+		47138A782A0F84B700CD6949 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47138A4F2A0F84B300CD6949 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47138A562A0F84B300CD6949;
+			remoteInfo = EarthModel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		47138A572A0F84B300CD6949 /* EarthModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarthModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47138A5A2A0F84B300CD6949 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47138A5C2A0F84B300CD6949 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		47138A5E2A0F84B300CD6949 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		47138A612A0F84B300CD6949 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47138A632A0F84B700CD6949 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47138A662A0F84B700CD6949 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47138A682A0F84B700CD6949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47138A6D2A0F84B700CD6949 /* EarthModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarthModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47138A712A0F84B700CD6949 /* EarthModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthModelTests.swift; sourceTree = "<group>"; };
+		47138A772A0F84B700CD6949 /* EarthModelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarthModelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47138A7B2A0F84B700CD6949 /* EarthModelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthModelUITests.swift; sourceTree = "<group>"; };
+		47138A7D2A0F84B700CD6949 /* EarthModelUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthModelUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47138A542A0F84B300CD6949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47138A6A2A0F84B700CD6949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47138A742A0F84B700CD6949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47138A4E2A0F84B300CD6949 = {
+			isa = PBXGroup;
+			children = (
+				47138A592A0F84B300CD6949 /* EarthModel */,
+				47138A702A0F84B700CD6949 /* EarthModelTests */,
+				47138A7A2A0F84B700CD6949 /* EarthModelUITests */,
+				47138A582A0F84B300CD6949 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47138A582A0F84B300CD6949 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47138A572A0F84B300CD6949 /* EarthModel.app */,
+				47138A6D2A0F84B700CD6949 /* EarthModelTests.xctest */,
+				47138A772A0F84B700CD6949 /* EarthModelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47138A592A0F84B300CD6949 /* EarthModel */ = {
+			isa = PBXGroup;
+			children = (
+				47138A5A2A0F84B300CD6949 /* AppDelegate.swift */,
+				47138A5C2A0F84B300CD6949 /* SceneDelegate.swift */,
+				47138A5E2A0F84B300CD6949 /* ViewController.swift */,
+				47138A602A0F84B300CD6949 /* Main.storyboard */,
+				47138A632A0F84B700CD6949 /* Assets.xcassets */,
+				47138A652A0F84B700CD6949 /* LaunchScreen.storyboard */,
+				47138A682A0F84B700CD6949 /* Info.plist */,
+			);
+			path = EarthModel;
+			sourceTree = "<group>";
+		};
+		47138A702A0F84B700CD6949 /* EarthModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				47138A712A0F84B700CD6949 /* EarthModelTests.swift */,
+			);
+			path = EarthModelTests;
+			sourceTree = "<group>";
+		};
+		47138A7A2A0F84B700CD6949 /* EarthModelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				47138A7B2A0F84B700CD6949 /* EarthModelUITests.swift */,
+				47138A7D2A0F84B700CD6949 /* EarthModelUITestsLaunchTests.swift */,
+			);
+			path = EarthModelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47138A562A0F84B300CD6949 /* EarthModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47138A812A0F84B700CD6949 /* Build configuration list for PBXNativeTarget "EarthModel" */;
+			buildPhases = (
+				47138A532A0F84B300CD6949 /* Sources */,
+				47138A542A0F84B300CD6949 /* Frameworks */,
+				47138A552A0F84B300CD6949 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EarthModel;
+			productName = EarthModel;
+			productReference = 47138A572A0F84B300CD6949 /* EarthModel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47138A6C2A0F84B700CD6949 /* EarthModelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47138A842A0F84B700CD6949 /* Build configuration list for PBXNativeTarget "EarthModelTests" */;
+			buildPhases = (
+				47138A692A0F84B700CD6949 /* Sources */,
+				47138A6A2A0F84B700CD6949 /* Frameworks */,
+				47138A6B2A0F84B700CD6949 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47138A6F2A0F84B700CD6949 /* PBXTargetDependency */,
+			);
+			name = EarthModelTests;
+			productName = EarthModelTests;
+			productReference = 47138A6D2A0F84B700CD6949 /* EarthModelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		47138A762A0F84B700CD6949 /* EarthModelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47138A872A0F84B700CD6949 /* Build configuration list for PBXNativeTarget "EarthModelUITests" */;
+			buildPhases = (
+				47138A732A0F84B700CD6949 /* Sources */,
+				47138A742A0F84B700CD6949 /* Frameworks */,
+				47138A752A0F84B700CD6949 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47138A792A0F84B700CD6949 /* PBXTargetDependency */,
+			);
+			name = EarthModelUITests;
+			productName = EarthModelUITests;
+			productReference = 47138A772A0F84B700CD6949 /* EarthModelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47138A4F2A0F84B300CD6949 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					47138A562A0F84B300CD6949 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					47138A6C2A0F84B700CD6949 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 47138A562A0F84B300CD6949;
+					};
+					47138A762A0F84B700CD6949 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 47138A562A0F84B300CD6949;
+					};
+				};
+			};
+			buildConfigurationList = 47138A522A0F84B300CD6949 /* Build configuration list for PBXProject "EarthModel" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47138A4E2A0F84B300CD6949;
+			productRefGroup = 47138A582A0F84B300CD6949 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47138A562A0F84B300CD6949 /* EarthModel */,
+				47138A6C2A0F84B700CD6949 /* EarthModelTests */,
+				47138A762A0F84B700CD6949 /* EarthModelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47138A552A0F84B300CD6949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47138A672A0F84B700CD6949 /* LaunchScreen.storyboard in Resources */,
+				47138A642A0F84B700CD6949 /* Assets.xcassets in Resources */,
+				47138A622A0F84B300CD6949 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47138A6B2A0F84B700CD6949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47138A752A0F84B700CD6949 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47138A532A0F84B300CD6949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47138A5F2A0F84B300CD6949 /* ViewController.swift in Sources */,
+				47138A5B2A0F84B300CD6949 /* AppDelegate.swift in Sources */,
+				47138A5D2A0F84B300CD6949 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47138A692A0F84B700CD6949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47138A722A0F84B700CD6949 /* EarthModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47138A732A0F84B700CD6949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47138A7C2A0F84B700CD6949 /* EarthModelUITests.swift in Sources */,
+				47138A7E2A0F84B700CD6949 /* EarthModelUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47138A6F2A0F84B700CD6949 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47138A562A0F84B300CD6949 /* EarthModel */;
+			targetProxy = 47138A6E2A0F84B700CD6949 /* PBXContainerItemProxy */;
+		};
+		47138A792A0F84B700CD6949 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47138A562A0F84B300CD6949 /* EarthModel */;
+			targetProxy = 47138A782A0F84B700CD6949 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47138A602A0F84B300CD6949 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47138A612A0F84B300CD6949 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47138A652A0F84B700CD6949 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47138A662A0F84B700CD6949 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47138A7F2A0F84B700CD6949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47138A802A0F84B700CD6949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47138A822A0F84B700CD6949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5ULAX9V4M6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EarthModel/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KurliProduction.EarthModel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47138A832A0F84B700CD6949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5ULAX9V4M6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EarthModel/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KurliProduction.EarthModel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		47138A852A0F84B700CD6949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5ULAX9V4M6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KurliProduction.EarthModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EarthModel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EarthModel";
+			};
+			name = Debug;
+		};
+		47138A862A0F84B700CD6949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5ULAX9V4M6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KurliProduction.EarthModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EarthModel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EarthModel";
+			};
+			name = Release;
+		};
+		47138A882A0F84B700CD6949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5ULAX9V4M6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KurliProduction.EarthModelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EarthModel;
+			};
+			name = Debug;
+		};
+		47138A892A0F84B700CD6949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5ULAX9V4M6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KurliProduction.EarthModelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EarthModel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47138A522A0F84B300CD6949 /* Build configuration list for PBXProject "EarthModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47138A7F2A0F84B700CD6949 /* Debug */,
+				47138A802A0F84B700CD6949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47138A812A0F84B700CD6949 /* Build configuration list for PBXNativeTarget "EarthModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47138A822A0F84B700CD6949 /* Debug */,
+				47138A832A0F84B700CD6949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47138A842A0F84B700CD6949 /* Build configuration list for PBXNativeTarget "EarthModelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47138A852A0F84B700CD6949 /* Debug */,
+				47138A862A0F84B700CD6949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47138A872A0F84B700CD6949 /* Build configuration list for PBXNativeTarget "EarthModelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47138A882A0F84B700CD6949 /* Debug */,
+				47138A892A0F84B700CD6949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47138A4F2A0F84B300CD6949 /* Project object */;
+}
