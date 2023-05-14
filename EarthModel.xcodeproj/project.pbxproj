@@ -16,6 +16,10 @@
 		47138A722A0F84B700CD6949 /* EarthModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47138A712A0F84B700CD6949 /* EarthModelTests.swift */; };
 		47138A7C2A0F84B700CD6949 /* EarthModelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47138A7B2A0F84B700CD6949 /* EarthModelUITests.swift */; };
 		47138A7E2A0F84B700CD6949 /* EarthModelUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47138A7D2A0F84B700CD6949 /* EarthModelUITestsLaunchTests.swift */; };
+		47138A8B2A0F858000CD6949 /* Earth.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 47138A8A2A0F858000CD6949 /* Earth.scnp */; };
+		472DFD0E2A0F93F1009E3D32 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 472DFD0D2A0F93F1009E3D32 /* ball.png */; };
+		47380BCD2A10C20800A36DE3 /* BallNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47380BCC2A10C20800A36DE3 /* BallNode.swift */; };
+		47380BCF2A10E70800A36DE3 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47380BCE2A10E70800A36DE3 /* Team.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		47138A772A0F84B700CD6949 /* EarthModelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarthModelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		47138A7B2A0F84B700CD6949 /* EarthModelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthModelUITests.swift; sourceTree = "<group>"; };
 		47138A7D2A0F84B700CD6949 /* EarthModelUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthModelUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		47138A8A2A0F858000CD6949 /* Earth.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Earth.scnp; sourceTree = "<group>"; };
+		472DFD0D2A0F93F1009E3D32 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ball.png; path = ../../../../Downloads/ball.png; sourceTree = "<group>"; };
+		47380BCC2A10C20800A36DE3 /* BallNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallNode.swift; sourceTree = "<group>"; };
+		47380BCE2A10E70800A36DE3 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +110,12 @@
 				47138A5A2A0F84B300CD6949 /* AppDelegate.swift */,
 				47138A5C2A0F84B300CD6949 /* SceneDelegate.swift */,
 				47138A5E2A0F84B300CD6949 /* ViewController.swift */,
+				47380BCE2A10E70800A36DE3 /* Team.swift */,
 				47138A602A0F84B300CD6949 /* Main.storyboard */,
+				47138A8A2A0F858000CD6949 /* Earth.scnp */,
+				47380BCC2A10C20800A36DE3 /* BallNode.swift */,
 				47138A632A0F84B700CD6949 /* Assets.xcassets */,
+				472DFD0D2A0F93F1009E3D32 /* ball.png */,
 				47138A652A0F84B700CD6949 /* LaunchScreen.storyboard */,
 				47138A682A0F84B700CD6949 /* Info.plist */,
 			);
@@ -232,8 +244,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				47138A672A0F84B700CD6949 /* LaunchScreen.storyboard in Resources */,
+				472DFD0E2A0F93F1009E3D32 /* ball.png in Resources */,
 				47138A642A0F84B700CD6949 /* Assets.xcassets in Resources */,
 				47138A622A0F84B300CD6949 /* Main.storyboard in Resources */,
+				47138A8B2A0F858000CD6949 /* Earth.scnp in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +274,8 @@
 			files = (
 				47138A5F2A0F84B300CD6949 /* ViewController.swift in Sources */,
 				47138A5B2A0F84B300CD6949 /* AppDelegate.swift in Sources */,
+				47380BCD2A10C20800A36DE3 /* BallNode.swift in Sources */,
+				47380BCF2A10E70800A36DE3 /* Team.swift in Sources */,
 				47138A5D2A0F84B300CD6949 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
